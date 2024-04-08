@@ -1,12 +1,12 @@
 <script>
     import { fade } from "svelte/transition";
-    import GenNav from "$lib/GenNav.svelte";
+    import GenNav2 from "$lib/GenNav2.svelte";
     import { base } from '$app/paths';
 </script>
 
     <div in:fade={{delay:500,duration:500}} out:fade>
 
-        <GenNav textBack={"Back to Home"} pageBack={""} page={"Artwork"} textNext={"Projects"} pageNext={"projects"} />
+        <GenNav2 textBack={"Back to Home"} page={"Artwork"} textNext={"Projects"} pageNext={"projects"} />
 
 
     <div class="h-screen pt-20 small:mx-5 medium:mx-20 grid small:grid-cols-2 medium:grid-cols-3 grid-flow-row small:gap-5 medium:gap-10">

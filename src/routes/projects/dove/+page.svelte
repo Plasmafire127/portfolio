@@ -17,7 +17,7 @@
 
 <div in:fade={{delay:500,duration:500}} out:fade class="h-screen w-screen">
 
-    <GenNav textBack={"Back to Projects"} pageBack={"projects"} page={""} textNext={""}/>
+    <GenNav textBack={"Back to Projects"} pageBack={"projects"} page={""}/>
 
     <div class="flex small:flex-col medium:flex-row items-center small:text-center medium:text-left justify-center small:space-x-5 medium:space-x-10 small:mx-10 medium:mx-20 small:py-20 py-16 h-full">
     
