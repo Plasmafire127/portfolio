@@ -1,6 +1,7 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    import { base } from '$app/paths';
 </script>
 
 
@@ -12,7 +13,7 @@
 
     <div class="small:px-5 medium:px-32 large:px-96 pt-20 grid grid-cols-2 grid-flow-row gap-10 items-center">
 
-        <a href="/projects/campusPrints">
+        <a href="{base}/projects/campusPrints">
             <div class="image hover:scale-105 transition ease-in-out duration-300">    
                 <img src="images/projects/CampusPrints/TheObjectTitled.png" alt="The Object" class="w-full">
                 <div class="imageOverlay">
@@ -26,7 +27,7 @@
             </div>
         </a>
 
-        <a href="/projects/SHPE">
+        <a href="{base}/projects/SHPE">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/projects/SHPEBot/SHPEAd.jpeg" alt="Robot Workshop" class="w-full">
                 <div class="imageOverlay">
@@ -40,7 +41,7 @@
             </div>
         </a>
 
-        <a href="/projects/Hollow">
+        <a href="{base}/projects/Hollow">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/projects/Hollow/HollowKnightAd.png" alt="Hollow Knight Workshop" class="w-full ">
                 <div class="imageOverlay">
@@ -54,7 +55,7 @@
             </div>
         </a>
 
-        <a href="/projects/ETSWebsite">
+        <a href="{base}/projects/ETSWebsite">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/projects/ETSWebsite/Thumbnail.png" alt="ETS Website" class="w-full ">
                 <div class="imageOverlay">
@@ -68,7 +69,7 @@
             </div>
         </a>
     
-        <a href="/projects/campus">
+        <a href="{base}/projects/campus">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/projects/Campus/Campus.jpg" alt="Campus" class="w-full  object-fill">
                 <div class="imageOverlay">
@@ -83,7 +84,7 @@
         </a>
         
 
-    <a href="/projects/dove">
+    <a href={base}/projects/dove">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/Dove/Dove.jpg" alt="Dove" class="w-full ">
             <div class="imageOverlay">
@@ -97,7 +98,7 @@
         </div>
     </a>
 
-    <a href="/projects/GCC">
+    <a href="{base}/projects/GCC">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/GCC/farCrop.png" alt="GCC" class="w-full">
             <div class="imageOverlay">
@@ -111,7 +112,7 @@
         </div>
     </a>
 
-    <a href="/projects/picousb">
+    <a href="{base}/projects/picousb">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/picoUSB/setup.png" alt="GCC" class="w-full">
             <div class="imageOverlay">
@@ -125,7 +126,7 @@
         </div>
     </a>
 
-    <a href="/projects/NFC">
+    <a href="{base}/projects/NFC">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/NFC/frontGradient.png" alt="NFC" class="w-full">
             <div class="imageOverlay">
@@ -139,7 +140,7 @@
         </div>
     </a>
 
-    <a href="/projects/scans">
+    <a href="{base}/projects/scans">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/scans/3Dprint.png" alt="sculptures" class="w-full">
             <div class="imageOverlay">
@@ -155,7 +156,7 @@
 
     </div>
 
-    <a href="/projects/halloween">
+    <a href="{base}/projects/halloween">
         <div class="image flex justify-center">
             <img src="images/projects/Halloween/Cropped2.png" alt="Halloween Costume" class="small:w-48 medium:w-64 large:w-96 small:mt-20 medium:mt-10">
             <div class="imageOverlay">

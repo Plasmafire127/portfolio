@@ -1,6 +1,7 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    import { base } from '$app/paths';
 </script>
 
     <div in:fade={{delay:500,duration:500}} out:fade>
@@ -10,7 +11,7 @@
 
     <div class="h-screen pt-20 small:mx-5 medium:mx-20 grid small:grid-cols-2 medium:grid-cols-3 grid-flow-row small:gap-5 medium:gap-10">
 
-        <a href="/artwork/ETS">
+        <a href="{base}/artwork/ETS">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/ETS/Loft2.png" alt="ETS" class="imageImg  "> 
                 <div class="imageOverlay">
@@ -24,7 +25,7 @@
             </div>
         </a>
 
-        <a href="/artwork/ETSPrusa">
+        <a href="{base}/artwork/ETSPrusa">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/ETSPrusa/ETSPrusa.png" alt="ETSPrusa" class = " ">
                 <div class="imageOverlay">
@@ -38,7 +39,7 @@
             </div>
         </a>
 
-        <a href="/artwork/dormatory">
+        <a href="{base}/artwork/dormatory">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Dorm/Render5.png" alt="Dorm" > 
                 <div class="imageOverlay">
@@ -52,7 +53,7 @@
             </div>
         </a>
 
-        <a href="/artwork/traveler">
+        <a href="{base}/artwork/traveler">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Traveler/Traveler4.png" alt="Traveler" >
                 <div class="imageOverlay">
@@ -66,7 +67,7 @@
             </div>
         </a>
 
-        <a href="/artwork/city">
+        <a href="{base}/artwork/city">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/City/City.JPEG" alt="City" >
                 <div class="imageOverlay">
@@ -80,7 +81,7 @@
             </div>
         </a>
 
-        <a href="/artwork/chess">
+        <a href="{base}/artwork/chess">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Chess/Japanese Scene.png" alt="JapaneseScene" >
                 <div class="imageOverlay">
@@ -93,7 +94,7 @@
                 </div>      
             </div>
         </a>
-        <a href="/artwork/deer">
+        <a href="{base}/artwork/deer">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Deer/Deer.png" alt="Deer" >
                 <div class="imageOverlay">
@@ -107,7 +108,7 @@
             </div>
         </a>
 
-        <a href="/artwork/deskFan">
+        <a href="{base}/artwork/deskFan">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Desk Fan/Fan.png" alt="Fan" >
                 <div class="imageOverlay">
@@ -121,7 +122,7 @@
             </div>
         </a>
 
-        <a href="/artwork/pollutant">
+        <a href="{base}/artwork/pollutant">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Pollution/Pollutant.png" alt="Pollutant" >
                 <div class="imageOverlay">
@@ -135,7 +136,7 @@
             </div>
         </a>
 
-        <a href="/artwork/OVA">
+        <a href="{base}/artwork/OVA">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/OVA/tank4.png" alt="OVA" >
                 <div class="imageOverlay">
@@ -149,7 +150,7 @@
             </div>
         </a>
 
-        <a href="/artwork/sword">
+        <a href="{base}/artwork/sword">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Sword/Sword3.png" alt="Sword" >
                 <div class="imageOverlay">
@@ -163,7 +164,7 @@
             </div>
         </a>
 
-        <a href="/artwork/robot">
+        <a href="{base}/artwork/robot">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/Robot/Jet1.png" alt="Jet" >
                 <div class="imageOverlay">
