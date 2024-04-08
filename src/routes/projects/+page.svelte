@@ -84,7 +84,7 @@
         </a>
         
 
-    <a href={base}/projects/dove">
+    <a href="{base}/projects/dove">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/Dove/Dove.jpg" alt="Dove" class="w-full ">
             <div class="imageOverlay">
