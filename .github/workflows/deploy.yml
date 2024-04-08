@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/portfolio'
+          BASE_PATH: '/${{ github.repository_name }}'
         run: |
           npm run build
 
