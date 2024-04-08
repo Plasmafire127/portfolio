@@ -1,5 +1,8 @@
+<script>
+    import me from '/images/other/me.png'
+</script>
 <div class="flex flex-auto max-w-screen items-center p-5 px-10 text-xl fixed top-0 left-0 right-0">
-    <img src="/images/other/me.png" alt="Jake" class="rounded-full medium:w-20 medium:h-20 small:w-10 small:h-10">
+    <img src={me} alt="Jake" class="rounded-full medium:w-20 medium:h-20 small:w-10 small:h-10">
     <div>
         <p class="pl-5 small:text-sm medium:text-2xl">
             Jake Digiugno
