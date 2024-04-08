@@ -2,6 +2,7 @@
     import { fade } from 'svelte/transition';
     import { onMount } from 'svelte';
     import Nav from "$lib/Nav.svelte";
+    import { base } from '$app/paths';
         
     let mouseMoved = false;
 
@@ -28,11 +29,11 @@
         <div in:fade={{delay:1000,duration:500}} out:fade>
             <Nav />
             <div class="flex min-h-screen items-center justify-center justify-items-center p-10 small:text-2xl medium:text-4xl large:text-5xl">
-                <a href="/artwork" class="hover:scale-105 hover:text-White duration-200">
+                <a href="{base}/artwork" class="hover:scale-105 hover:text-White duration-200">
                     Artwork
                 </a>  
                 <hr width="25%" size="2" class="-rotate-45 bg-Cream">
-                <a href="/projects" class="hover:scale-105 hover:text-White duration-200">
+                <a href="{base}/projects" class="hover:scale-105 hover:text-White duration-200">
                     Projects
                 </a>  
             </div>
