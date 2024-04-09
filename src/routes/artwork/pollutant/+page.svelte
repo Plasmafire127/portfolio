@@ -1,6 +1,7 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    
 
     // These values are bound to properties of the video
 	let muted = true;

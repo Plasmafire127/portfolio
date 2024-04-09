@@ -1,6 +1,19 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    import { onMount } from 'svelte';
+    import { writable } from 'svelte/store';
+
+    let scrollPosition = writable(0);
+
+    onMount(() => {
+        const scrollContainer = document.querySelector('.scroll-container');
+        scrollContainer.addEventListener('scroll', handleScroll);
+    });
+
+    function handleScroll(event) {
+        scrollPosition.set(event.target.scrollTop);
+    }
 </script>
 
 <div in:fade={{delay:500,duration:500}} out:fade class="h-screen w-screen">
@@ -21,7 +34,10 @@
                     Wanting to move in with a gameplan, I modeled my freshman dormatory room with the  intent to figure out furniture arrangement. For sophomore year, I stepped it up and did a full decorative design!                </div>
             </div>
 
-        <div class="flex-1 overflow-y-scroll h-full small:p-5 medium:p-10 small:space-y-5 medium:space-y-10">
+        <div class="flex-1 overflow-y-scroll h-full small:p-5 medium:p-10 small:space-y-5 medium:space-y-10 relative scroll-container on:scroll={handleScroll}">
+            <div transition:fade|local>
+                <i class="z-40 absolute bottom-5 left-1/2 fa-solid fa-angle-down text-sm" style="opacity: {Math.max(0, 1 - $scrollPosition / 100)};"></i>
+            </div>
             <img src="../images/artwork/Dorm/Dorm Rooms.png" alt="Freshman Dormatory" class="hover:scale-105 transform duration-300"> 
             <img src="../images/artwork/Dorm/Render3.png" alt="Sophomore Dormatory1" class="hover:scale-105 transform duration-300"> 
             <img src="../images/artwork/Dorm/Render4.png" alt="Sophomore Dormatory2" class="hover:scale-105 transform duration-300"> 

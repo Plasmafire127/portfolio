@@ -1,6 +1,19 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    import { onMount } from 'svelte';
+    import { writable } from 'svelte/store';
+
+    let scrollPosition = writable(0);
+
+    onMount(() => {
+        const scrollContainer = document.querySelector('.scroll-container');
+        scrollContainer.addEventListener('scroll', handleScroll);
+    });
+
+    function handleScroll(event) {
+        scrollPosition.set(event.target.scrollTop);
+    }
 </script>
 
 <div in:fade={{delay:500,duration:500}} out:fade class="h-screen w-screen">
@@ -26,11 +39,14 @@
                 <br>
                 <br>
                 To reduce the form factor, I stipped a Micro USB to USB A adaptor and soldered shorter wiring that wraps around the pico.
-                Afterwards, my co-worker designed a case to 3D print.
+                Afterwards, my co-worker and I designed a case to 3D print.
             </div>
         </div>
 
-        <div class="flex-1 overflow-y-scroll h-full small:p-5 medium:p-10 small:space-y-5 medium:space-y-10">
+        <div class="flex-1 overflow-y-scroll h-full small:p-5 medium:p-10 small:space-y-5 medium:space-y-10 relative scroll-container on:scroll={handleScroll}">
+            <div transition:fade|local>
+                <i class="z-40 absolute bottom-5 left-1/2 fa-solid fa-angle-down text-sm" style="opacity: {Math.max(0, 1 - $scrollPosition / 100)};"></i>
+            </div>
             <img src="../images/projects/picoUSB/setup.png" alt="Setup" class="hover:scale-105 transform duration-300"> 
             <img src="../images/projects/picoUSB/casing.png" alt="Casing" class="hover:scale-105 transform duration-300"> 
             <!-- svelte-ignore a11y-media-has-caption -->

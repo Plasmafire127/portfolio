@@ -1,6 +1,7 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    
 </script>
 
 <div in:fade={{delay:500,duration:500}} out:fade class="h-screen w-screen">
@@ -12,7 +13,7 @@
 
         <div class="small:flex small:flex-col medium:flex-1 small:pl-0 medium:pl-48">
 
-            <div class="small:text-3xl medium:text-6xl small:pb-5 medium:pb-10">
+            <div class="small:3text-xl medium:text-6xl small:pb-5 medium:pb-10">
                 Emerging Technology Studio Prusa i3 MK3S+
             </div>
             <div class="small:text-sm medium:text-2xl">
@@ -20,7 +21,7 @@
             </div>
         </div>
 
-            <div class="flex-1 grid px-10 pb-10 h-screen items-center small:pt-10 medium:overflow-x-hidden">
+            <div class="flex-1 grid px-10 pb-10 h-full items-center small:pt-10 medium:overflow-x-hidden">
                 <!-- svelte-ignore a11y-media-has-caption -->
                 <video autoplay loop playsinline disablepictureinpicture class="col-start-1 row-start-1 hover:opacity-0 scale-200">
                     <source src="../images/artwork/ETSPrusa/ETS_Prusa.mov" type="video/mp4">

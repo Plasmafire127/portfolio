@@ -51,16 +51,19 @@ html{
 
 .imageTitle {
     font-size: 2em;
+    user-select: none;
 }
 
 .imageDescription {
     text-align: center;
     font-size: 1.25em;
     margin-top: 0.25em;
+    user-select: none;
 }
 
 .imageTitleSmall {
     font-size: 0.75em;
+    user-select: none;
 }
 
 .imageDescriptionSmall {
@@ -68,4 +71,5 @@ html{
     text-justify: center;
     font-size: 0.5em;
     margin-top: 0.1em;
+    user-select: none;
 }

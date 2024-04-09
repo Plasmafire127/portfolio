@@ -1,6 +1,7 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    
 </script>
 
 <div in:fade={{delay:500,duration:500}} out:fade class="h-screen w-screen">
@@ -16,7 +17,7 @@
                 Deer
             </div>
             <div class="small:text-sm medium:text-2xl">
-                One of my first blender projects, I learned more about asset management and volumetrics with the help of a few tutorials.
+                One of my first blender projects. I learned more about asset management and volumetrics with the help of a few tutorials.
             </div>
         </div>
 

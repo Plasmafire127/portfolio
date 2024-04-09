@@ -1,6 +1,7 @@
 <script>
     import { fade } from "svelte/transition";
     import GenNav from "$lib/GenNav.svelte";
+    
 </script>
 
 <div in:fade={{delay:500,duration:500}} out:fade class="h-screen w-screen">
