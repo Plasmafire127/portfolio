@@ -7,7 +7,7 @@
 
     <GenNav textBack={"Back to Projects"} pageBack={"projects"} page={""}/>
 
-    <div class="flex small:flex-col medium:flex-row items-center small:text-center medium:text-left justify-center small:space-x-5 medium:space-x-10 small:mx-10 medium:mx-20 small:py-20 py-16 h-full">
+    <div class="flex small:flex-col medium:flex-row items-center small:text-center medium:text-left justify-center small:space-x-0 medium:space-x-10 small:mx-10 medium:mx-20 small:py-20 py-16 h-full">
     
 
         <div class="small:flex small:flex-col medium:flex-1 small:px-10 medium:pl-48">
