@@ -29,7 +29,7 @@
                 NFC Albums
             </div>
             <div class="small:text-sm medium:text-2xl">
-                My first project in Fusion 360, these 3D printed albums automatically play their respective album when a phone is tapped to the plate, thanks to the NFC tag tucked into the back.
+                My first project in Fusion 360. These 3D printed albums automatically play their respective album when a phone is tapped to the plate, thanks to the NFC tag tucked into the back.
 
             </div>
         </div>
