@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+* {
+    font-family: 'Yrsa', serif;
+}
+
+.image {
+    position: relative;
+}
+
+.imageImg {
+    display: block;
+    width: 100%;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.1);
+    font-family: "Yrsa", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.imageOverlay > * {
+    transform: translateY(20px);    
+    transition: transform 300ms;
+}
+
+.imageOverlay:hover > * {
+    transform: translateY(0);
+}
+
+.imageOverlay:hover {
+    opacity: 1;
+
+}
+
+.imageTitle {
+    font-size: 2em;
+}
+
+.imageDescription {
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
