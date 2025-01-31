@@ -11,6 +11,20 @@
 
     <div class="h-screen pt-20 small:mx-5 medium:mx-20 grid small:grid-cols-2 medium:grid-cols-3 grid-flow-row small:gap-5 medium:gap-10">
 
+        <a href="{base}/artwork/pixel">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">
+                <img src="images/artwork/Pixel/thaumaturge.png" alt="pixelart" class="imageImg  "> 
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        3D-to-2D Pipeline
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        Transforming 3D models into 2D pixelart
+                    </div>
+                </div>      
+            </div>
+        </a>
+
         <a href="{base}/artwork/ETS">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/artwork/ETS/Loft2.png" alt="ETS" class="imageImg  "> 
