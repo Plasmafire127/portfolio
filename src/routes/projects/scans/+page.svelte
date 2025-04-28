@@ -29,7 +29,10 @@
                 3D scanning
             </div>
             <div class="small:text-sm medium:text-2xl">
-                An ongoing project in which students of a sculpting art class come in and get 3D scans, using Polycam on an Ipad. Afterwards, I clean up the .STL files using blender mesh editing and sculpting. Once finalized, we 3D print the scans for the students to use as a reference! 
+                An evolving project in which students of a sculpting art class come in for 3D portrait scans. Initially, we used Polycam on Ipads and I'd clean up the .STL files using blender mesh editing and sculpting. Recently, we invested in an Einstar Shining 3D scanner and the difference has been incredible! Once finalized, we 3D print the scans for the students to use as a sculpting references.
+            </div>
+            <div class="small:text-sm medium:text-2xl">
+                The images involve a mix between old and new scanners to show our equipment upgrade. Additionally, I've added a render of two Greek-style busts I made using Blender and our new scanner.
             </div>
         </div>
 
@@ -37,6 +40,11 @@
             <div transition:fade|local>
                 <i class="z-40 absolute bottom-10 left-1/2 fa-solid fa-angle-down text-sm" style="opacity: {Math.max(0, 1 - $scrollPosition / 100)};"></i>
             </div>
+            <img src="../images/projects/scans/bustrender.png" alt="bust render" class="hover:scale-105 transform duration-300"> 
+            <img src="../images/projects/scans/sculpt.JPG" alt="Sculpting class" class="hover:scale-105 transform duration-300"> 
+            <img src="../images/projects/scans/sculpt1.JPG" alt="Sculpting example 1" class="hover:scale-105 transform duration-300"> 
+            <img src="../images/projects/scans/sculpt2.JPG" alt="Sculpting example 2" class="hover:scale-105 transform duration-300"> 
+            <img src="../images/projects/scans/difference.png" alt="Old vs New scanner" class="hover:scale-105 transform duration-300"> 
             <img src="../images/projects/scans/sculpts.png" alt="Blender Render" class="hover:scale-105 transform duration-300"> 
             <img src="../images/projects/scans/professor.png" alt="Polycam" class="hover:scale-105 transform duration-300"> 
             <img src="../images/projects/scans/3Dprint.png" alt="print" class="hover:scale-105 transform duration-300"> 

@@ -10,8 +10,35 @@
     
     <GenNav2 textBack={"Back to Home"} page={"Projects"} textNext={"Artwork"} pageNext={"artwork"}/>
 
-
     <div class="small:px-5 medium:px-32 large:px-96 pt-20 grid grid-cols-2 grid-flow-row gap-10 items-center">
+
+        <a href="{base}/projects/riad">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">    
+                <img src="images/projects/Riad/Thumbnail.png" alt="Designer's Edge" class="w-full">
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        American Riad
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        An architectural brainstorming project in collaboration with Ghana Think Tank
+                    </div>
+                </div>      
+            </div>
+        </a>
+
+        <a href="{base}/projects/designersEdge">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">    
+                <img src="images/projects/DesignersEdge/Thumbnail.png" alt="Designer's Edge" class="w-full">
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        Designer's Edge
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        A Design-athon hosted by the Emerging Technology Studio
+                    </div>
+                </div>      
+            </div>
+        </a>
 
         <a href="{base}/projects/campusPrints">
             <div class="image hover:scale-105 transition ease-in-out duration-300">    
@@ -63,12 +90,68 @@
                         ETS Website
                     </div>
                     <div class="medium:imageDescription small:imageDescriptionSmall text-center">
-                        Some website pages from ETS (WIP)
+                        Redesigning the Emerging Technology Studio's website
                     </div>
                 </div>      
             </div>
         </a>
     
+        <a href="{base}/projects/scans">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">
+                <img src="images/projects/scans/Thumbnail.png" alt="sculptures" class="w-full">
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        3D scanning
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        3D scanning and 3D printing students of an art class
+                    </div>
+                </div>      
+            </div>
+        </a>
+
+        <a href="{base}/projects/NFC">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">
+                <img src="images/projects/NFC/frontGradient2.png" alt="NFC" class="w-full">
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        NFC Album
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        Designing a decorative smart album
+                    </div>
+                </div>      
+            </div>
+        </a>
+
+        <a href="{base}/projects/GCC">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">
+                <img src="images/projects/GCC/farCrop.png" alt="GCC" class="w-full">
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        Gamecube Controller Fix
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        Fixing a dog-bitten Gamecube controller
+                    </div>
+                </div>      
+            </div>
+        </a>
+
+        <a href="{base}/projects/picousb">
+            <div class="image hover:scale-105 transition ease-in-out duration-300">
+                <img src="images/projects/picoUSB/setup.png" alt="GCC" class="w-full">
+                <div class="imageOverlay">
+                    <div class="medium:imageTitle small:imageTitleSmall">
+                        Pico BadUSB
+                    </div>
+                    <div class="medium:imageDescription small:imageDescriptionSmall text-center">
+                        Creating a BadUSB with a Raspberry Pi Pico
+                    </div>
+                </div>      
+            </div>
+        </a>
+
         <a href="{base}/projects/campus">
             <div class="image hover:scale-105 transition ease-in-out duration-300">
                 <img src="images/projects/Campus/Campus.jpg" alt="Campus" class="w-full  object-fill">
@@ -82,8 +165,7 @@
                 </div>      
             </div>
         </a>
-        
-
+                
     <a href="{base}/projects/dove">
         <div class="image hover:scale-105 transition ease-in-out duration-300">
             <img src="images/projects/Dove/Dove.jpg" alt="Dove" class="w-full ">
@@ -93,62 +175,6 @@
                 </div>
                 <div class="medium:imageDescription small:imageDescriptionSmall text-center">
                     A prototype modular shelf with an Apple inspired advertisement
-                </div>
-            </div>      
-        </div>
-    </a>
-
-    <a href="{base}/projects/GCC">
-        <div class="image hover:scale-105 transition ease-in-out duration-300">
-            <img src="images/projects/GCC/farCrop.png" alt="GCC" class="w-full">
-            <div class="imageOverlay">
-                <div class="medium:imageTitle small:imageTitleSmall">
-                    Gamecube Controller Fix
-                </div>
-                <div class="medium:imageDescription small:imageDescriptionSmall text-center">
-                    Fixing a dog-bitten Gamecube controller
-                </div>
-            </div>      
-        </div>
-    </a>
-
-    <a href="{base}/projects/picousb">
-        <div class="image hover:scale-105 transition ease-in-out duration-300">
-            <img src="images/projects/picoUSB/setup.png" alt="GCC" class="w-full">
-            <div class="imageOverlay">
-                <div class="medium:imageTitle small:imageTitleSmall">
-                    Pico BadUSB
-                </div>
-                <div class="medium:imageDescription small:imageDescriptionSmall text-center">
-                    Creating a BadUSB with a Raspberry Pi Pico
-                </div>
-            </div>      
-        </div>
-    </a>
-
-    <a href="{base}/projects/NFC">
-        <div class="image hover:scale-105 transition ease-in-out duration-300">
-            <img src="images/projects/NFC/frontGradient.png" alt="NFC" class="w-full">
-            <div class="imageOverlay">
-                <div class="medium:imageTitle small:imageTitleSmall">
-                    NFC Album
-                </div>
-                <div class="medium:imageDescription small:imageDescriptionSmall text-center">
-                    Designing a decorative smart album
-                </div>
-            </div>      
-        </div>
-    </a>
-
-    <a href="{base}/projects/scans">
-        <div class="image hover:scale-105 transition ease-in-out duration-300">
-            <img src="images/projects/scans/3Dprint.png" alt="sculptures" class="w-full">
-            <div class="imageOverlay">
-                <div class="medium:imageTitle small:imageTitleSmall">
-                    3D scanning
-                </div>
-                <div class="medium:imageDescription small:imageDescriptionSmall text-center">
-                    3D scanning and 3D printing students of an art class
                 </div>
             </div>      
         </div>

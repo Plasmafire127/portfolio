@@ -23,13 +23,21 @@
     <div class="flex small:flex-col medium:flex-row items-center small:text-center medium:text-left justify-center small:space-x-0 medium:space-x-10 small:mx-10 medium:mx-20 small:py-20 py-16 h-full">
     
 
-        <div class="small:flex small:flex-col medium:flex-1 small:px-10 medium:pl-48">
+        <div class="small:flex small:flex-col medium:flex-1 small:px-10 medium:pl-10">
 
             <div class="small:text-3xl medium:text-6xl small:pb-5 medium:pb-10">
                 Emerging Technology Studio Website
             </div>
             <div class="small:text-sm medium:text-2xl">
-                A few webpages I designed for the Emerging Technology Studio. Currently, we are in the processes of rehauling the website (See figma concepts).
+                A complete redesign of the previous Emerging Technology Studio website, built using Sveltekit and TailwindCSS. 
+            </div>
+            <br>
+            <div class="small:text-sm medium:text-2xl">
+                After building the website, I've assigned guided tasks to other staff members so they can also get hands on experience in website development.
+            </div>
+            <br>
+            <div class="small:text-sm medium:text-2xl">
+                Binghamton University's previous website is attached below for comparison!
             </div>
         </div>
 
@@ -37,18 +45,17 @@
             <div transition:fade|local>
                 <i class="z-40 absolute bottom-5 left-1/2 fa-solid fa-angle-down text-sm" style="opacity: {Math.max(0, 1 - $scrollPosition / 100)};"></i>
             </div>
-            <img src="../images/projects/ETSWebsite/Thumbnail.png" alt="2D Design" class="hover:scale-105 transform duration-300"> 
-            <img src="../images/projects/ETSWebsite/Cricut.png" alt="Cricut" class="hover:scale-105 transform duration-300"> 
-            <!-- svelte-ignore a11y-img-redundant-alt -->
-            <img src="../images/projects/ETSWebsite/PhotoEditing.png" alt="Photo Editing" class="hover:scale-105 transform duration-300"> 
-            <img src="../images/projects/ETSWebsite/VideoEditing.png" alt="Video Editing" class="hover:scale-105 transform duration-300">
-            <!-- svelte-ignore a11y-media-has-caption -->
-            <video autoplay loop playsinline disablepictureinpicture>
-                <source src="../images/projects/ETSWebsite/TheObjectETS.mov" type="video/mp4">
-                    <tack kind="captions"></tack>
-            </video>
-            <img src="../images/projects/ETSWebsite/Figma2.png" alt="Figma Pages" class="hover:scale-105 transform duration-300">  
-            <img src="../images/projects/ETSWebsite/Figma.png" alt="Figma AdminDash" class="hover:scale-105 transform duration-300">  
+            <div class="small:visible medium:collapse">
+                The embedded website is too small to view on mobile.
+            </div>
+            <a href="https://www.etsbing.tech/" class="small:visible medium:collapse">
+                Click here to be redirected!
+            </a>
+            <iframe 
+            src="https://www.etsbing.tech/"
+            class="w-full h-full small:collapse medium:visible"
+            ></iframe>
+            <img src="../images/projects/ETSWebsite/Old.png" alt="Old website" class="hover:scale-105 transform duration-300"> 
         </div>
     </div>
 </div>
